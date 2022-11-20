@@ -33,6 +33,7 @@ public static void main(String[] args) throws SQLException, ClassNotFoundExcepti
 		String string2 = rs.getString("Last_Name");
 		System.out.println(string1);
 		System.out.println(string2);
+		System.out.println("vinoth");
 	}
 	//7 close the db connection
 	c.close();
